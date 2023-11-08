@@ -1,47 +1,315 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
-    <link rel="stylesheet" href="style.css"> <!-- You can link an external CSS file for styling -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible"
+         content="IE=edge">
+   <title></title>
+   <meta name="viewport"
+         content="width=device-width, initial-scale=1">
+   <meta name="description"
+         content="Portfolio webpage of Sampathpavan Neelamsetti" />
+   <meta name="keywords"
+         content="portfolio,website,personal website,github,projects,Electrical and Electronics engineering" />
+   <meta name="author"
+         content="Sampathpavan Neelamsetti" />
+   <!--------------------Social Media icons------------------------>
+   <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+   <link rel="icon"
+         type="image/png"
+         href="/images/logo.png">
+   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700"
+         rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700"
+         rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap"
+         rel="stylesheet">
+   <!-- Animate.css -->
+   <link rel="stylesheet"
+         href="css/animate.css">
+   <!-- Bootstrap  -->
+   <link rel="stylesheet"
+         href="css/bootstrap.css">
+   <!-- Theme style  -->
+   <link rel="stylesheet"
+         href="css/style.css">
+   <!-- Modernizr JS -->
+   <script src="js/modernizr-2.6.2.min.js"></script>
+   <script type="module"
+           src="index.js"></script>
+   <script src="js/profile-card.js"></script>
 </head>
+
 <body>
-    <header>
-        <h1>Sampathpavan Neelamsetti</h1>
-        <p>Trainee engineer</p>
-    </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>A Dedicated individual with a strong interest in electric vehicle design, eager to secure a trainee role in the automotive sector. Armed with a solid educational foundation, pertinent skills, and a strong commitment to work. Proficient in model- based development, power electronics, and modelling and simulation. Committed to delivering outstanding outcomes and enhancing organizational achievement.</p>
-    </section>
-
-    <section id="portfolio">
-        <h2>Projects</h2>
-        <!<div class="project-card">
-    <h3>Battery SOC Estimation</h3>
-    <img src="The-general-diagram-of-the-real-time-joint-SoC-estimator.png" alt="Project Image">
-    <p>Soc and Soh estimation of lithium ion battery
-Developed a Kalman filter-based algorithm for accurate estimation of SOC(State of Charge) and SOH (State of Health) in lithium-ion batteries.
-Implemented the algorithm to continuously monitor and assess the battery'scharge status and overall health. Discovering the Hidden Potential of Lithium-Ion Batteries with a Kalman FilterAlgorithm
-Innovation in battery system methodology increased battery performance by25% through precise state of charge and health estimation.</p>
-    <a href="https://github.com/sampathsetti/projects/commit/8f4693e2ac3480f64528adda0b361ef53456a03e" target="_blank">View Project</a>
-</div>
-
-    </section>
-<div class="project-card">
-    <h3>regenarative brraking</h3>
-    <img src="regenerative braking.jpg" alt="Project Image">
-    <p>this discribes the system model design of vehicle braking system.
-    the actual parameters of motor, battery and braking systems is in real time.
-    matlab and simulink is used for model design of this project.</p>
-    <a href="https://github.com/sampathsetti/projects/commit/8f4693e2ac3480f64528adda0b361ef53456a03e" target="_blank">View Project</a>
-</div>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me at your.email@example.com</p>
-    </section>
+   <div id="colorlib-page">
+      <div class="container-wrap">
+         <a href="#"
+            class="js-colorlib-nav-toggle colorlib-nav-toggle"
+            data-toggle="collapse"
+            data-target="#navbar"
+            aria-expanded="false"
+            aria-controls="navbar"><i></i></a>
+         <!--------------------[START] Side Bar-------------------------->
+         <aside id="colorlib-aside"
+                role="complementary"
+                class="border js-fullheight no-print">
+            <div class="text-center">
+               <div class="author-img">
+                  <img alt="profile-img" src="images/logo.png">
+               </div>
+               <h1 id="colorlib-logo"><a href="./index.html">Sampathpavan Neelamsetti </a>
+               </h1>
+               <p><b>Trainee Engineer</b></p>
+            </div>
+            <nav id="colorlib-main-menu"
+                 role="navigation"
+                 class="navbar"
+                 style="padding-top: 2em">
+               <div id="navbar"
+                    class="collapse">
+                  <ul>
+                     <li><a href="#"
+                           data-nav-section="about">About</a></li>
+                     <li><a href="#"
+                           data-nav-section="skills">Skills</a>
+                     </li>
+                     <li><a href="#"
+                           data-nav-section="projects">Projects</a>
+                     </li>
+                     <li><a href="#"
+                           data-nav-section="experience">Work
+                           Experience</a></li>
+                     <li><a href="#"
+                           data-nav-section="education">Education</a></li>
+                     <li><a href="#"
+                           data-nav-section="contact">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </aside>
+         <!--------------------[END] Side Bar---------------------------->
+         <!--------------------[START] Main Page------------------------->
+         <div id="colorlib-main">
+            <!--------------------[START] About me-------------------------->
+            <section class="colorlib-about"
+                     data-section="about">
+               <div class="colorlib-narrow-content">
+                  <div class="row animate-box"
+                       data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>About</h1>
+                        <div id="bio">
+                              <p>
+A dedicated individual with a strong interest in electric vehicle design, eager tosecure a trainee role in the automotive sector. Armed with a solid educationalfoundation, pertinent skills, and a strong commitment to work. Proficient in model-based development, power electronics, and modeling and simulation. Committed todelivering outstanding outcomes and enhancing organizational achievement.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!--------------------[END] About me---------------------------->
+            <!--------------------[START] Skills---------------------------->
+            <section class="colorlib-skills"
+                     data-section="skills">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box"
+                       data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>Skills</h1>
+                     </div>
+                  </div>
+                  <div id="skills"
+                       class="row">
+                     <div class="col-md-4">
+            <h2>Technical Skills</h2>
+            <ul>
+               <li>Model Based Design</li>
+               <li>Powertrain design</li>
+               <li>Modelling and Simulation </li>
+               <li>Control system design </li>
+                <li>Code generation </li>
+                <li> Battery management system </li>
+                <li> MIL, PIL </li>
+                <li> MATLAB, SIMULINK, STATEFLOW </li>
+            </ul>
+         </div>
+         <div class="col-md-4">
+            <h2>Soft Skills</h2>
+            <ul>
+               <li>Problem Solving</li>
+               <li>Teamwork</li>
+               <li>Communication</li>
+               <li>Leadership</li>
+            </ul>  
+                  </div>
+               </div>
+            </section>
+            <!--------------------[END] Skills------------------------------>
+            <section class="colorlib-profile"
+                     data-section="profile-card">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box"
+                       data-animate-effect="fadeInLeft">
+                     <div class="profile-cards">
+                        <div class="col">
+                           <div class="stack-card"
+                                user-id="8461233"></div>
+                        </div>
+                        <div class="col">
+                           <div class="github-card"
+                                username="sampathpavan"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!--------------------[START] Projects-------------------------->
+            <section class="colorlib-projects no-print"
+                     data-section="projects">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box"
+                       data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>Projects</h1>
+                     </div>
+                  </div>
+                  <ul id="accordion"
+                      class="accordion animate-box"
+                      data-animate-effect="fadeInLeft">
+                     <li>
+                        <div class="link">
+                           <p style="margin-bottom: 0px">Web Projects</p>
+                           <i class="fa fa-chevron-down"></i>
+                        </div>
+                        <ul id="web-projects"
+                            class="submenu">
+                        </ul>
+                     </li>
+                     <li>
+                        <div class="link">
+                           <p style="margin-bottom: 0px">Software Projects
+                           </p>
+                           <i class="fa fa-chevron-down"></i>
+                        </div>
+                        <ul id="software-projects"
+                            class="submenu">
+                        </ul>
+                     </li>
+                     <li>
+                        <div class="link">
+                           <p style="margin-bottom: 0px">Android Projects
+                           </p>
+                           <i class="fa fa-chevron-down"></i>
+                        </div>
+                        <ul id="android-projects"
+                            class="submenu">
+                        </ul>
+                     </li>
+                     <li>
+                        <div class="link">
+                           <p style="margin-bottom: 0px">Freelance Projects
+                           </p>
+                           <i class="fa fa-chevron-down"></i>
+                        </div>
+                        <ul id="freelance-projects"
+                            class="submenu">
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+            </section>
+            <!--------------------[END] Projects---------------------------->
+            <!--------------------[START] Work Experience------------------->
+            <section class="colorlib-experience"
+                     data-section="experience">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box fadeInLeft animated"
+                       data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>Work <span style="color: #f9bf3f">Experience</span>
+                        </h1>
+                     </div>
+                  </div>
+                  <div class="timeline-centered"
+                       id="experience">
+                       <h2>Trainee Engineer @ Accord power conversion PVT LTD @ HYderabad<span>01/2022-03/2023</span></h2>
+                  <p>Skilled in designing and validating electric chargers specifically for two-wheelers, along with the ability to create detailed test reports.
+The role is to engage with customers, listen to their concerns, provide solutions to their problems, and suggest products and services based on their individual needs.
+The task is to analyze customer problems, identify the root cause, and implement corrective action.
+Conducted quality and safety checks, ensuring that products met standards and regulations, and assisted in the delivery of high-quality products to customers.</p>
+                  </div>
+               </div>
+            </section>
+            <!--------------------[END] Work Experience--------------------->
+            <!--------------------[START] Education------------------------->
+            <section class="colorlib-education"
+                     data-section="education">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box fadeInLeft animated"
+                       data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>Education</h1>
+                     </div>
+                  </div>
+                  <div class="timeline-centered"
+                       id="education">
+                       <h2>GMR institute of technology @BTech/B.E - EEE<span>2021</span></h2>
+                  <p>Grade - 6 cgpa 
+                    coordinator for E-Robotic race 
+                      Team lead for project</P>
+                  </div>
+               </div>
+            </section>
+            <!--------------------[END] Education--------------------------->
+            <!--------------------[START] Contact--------------------------->
+            <section class="colorlib-contact"
+                     data-section="contact">
+               <div class="colorlib-narrow-content">
+                  <div class="row row-bottom-padded-sm animate-box"
+                       data-animate-effect="fadeInLeft">
+                     <div class="about-desc">
+                        <h1>Contact</h1>
+                     </div>
+                     <p>Please feel welcome to contact me via email at <a href="sampthpavann@example.com">your.email@example.com</a>. You can also reach me on my mobile phone at <a href="tel:9398695824</a>. Whether you would like
+                        to discuss a technology, a business opportunity, or simply say hello, I would be delighted to
+                        hear from you.
+                        
+                     </p>
+                  </div>
+               </div>
+            </section>
+            <!--------------------[END] Contact----------------------------->
+            <!--------------------[START] Footer---------------------------->
+            <section class="colorlib-footer no-print"
+                     data-section="footer">
+               <div class="colorlib-narrow-content">
+                  <footer class="footer"
+                          id="footer">
+                  </footer>
+               </div>
+            </section>
+            <!--------------------[END] Footer------------------------------>
+         </div>
+         <!-----[END] Main Page--------->
+      </div>
+   </div>
+   <!-- jQuery -->
+   <script src="js/jquery.min.js"></script>
+   <!-- jQuery Easing -->
+   <script src="js/jquery.easing.1.3.js"></script>
+   <!-- Bootstrap -->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- Waypoints -->
+   <script src="js/jquery.waypoints.min.js"></script>
+   <!-- Flexslider -->
+   <script src="js/jquery.flexslider-min.js"></script>
+   <!-- Counters -->
+   <script src="js/jquery.countTo.js"></script>
+   <!-- MAIN JS -->
+   <script src="js/main.js"></script>
 </body>
+
 </html>
